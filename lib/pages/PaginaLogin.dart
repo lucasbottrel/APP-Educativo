@@ -16,7 +16,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Jogos Educativos"),
+        title: Text("ACESSO"),
       ),
       body: Form( //consegue armazenar o estado dos campos de texto e além disso, fazer a validação
         key: _formKey, //estado do formulário
