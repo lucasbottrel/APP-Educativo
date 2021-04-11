@@ -32,7 +32,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Jogos Educativos"),
+        title: Text("Aplicativo Educativo"),
       ),
       body: Container(
         padding: EdgeInsets.all(16),
@@ -40,7 +40,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            Text("Para acessar os jogos clique nas imagens", textAlign: TextAlign.center, style: TextStyle(fontSize: 20)),
+            Text("Para acessar as informações clique nas imagens", textAlign: TextAlign.center, style: TextStyle(fontSize: 20)),
             Padding(
               padding: EdgeInsets.only(top: 32),
               child: Row(
